@@ -1,0 +1,655 @@
+*{
+    font-family: Arial, Verdana;
+}
+.nav_link_menu_horizontal_automatico_51 {
+    margin-top:-28px !important;
+}
+h1 {
+    color: #B09F6E;
+    font-size: 20px;
+    font-family:  Arial;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: #B09F6E;
+    font-size: 18;
+    font-weight: bold;
+    font-family: Arial;
+}
+.breadcrumb{
+    background: none;
+}
+.breadcrumb li {
+    color: #B09F6E;
+    font-weight: bold;
+}
+.breadcrumb li > a {
+    color: #949494;
+    font-weight: normal;
+}
+
+.stage {
+    background-color: #f8f8f8;
+    border-bottom: solid #B09F6E 1px;
+}
+.stage img{
+    padding: 2px 5px;
+    width: 610px;
+    height: auto;
+    z-index: 100;
+}
+.stage p {
+    color: #949494;
+    text-align: justify;
+    margin-right: 15px;
+}
+.stage .tarja {
+    margin-top: -250px;
+    width: 620px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color:  #990000;
+    color: #949494;
+    z-index: 150;
+    position: relative;
+    font-weight: bold;
+}
+.stage .tarja:before
+{
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-left: 4px solid transparent;
+    border-top: 15px solid transparent;
+    border-right:  5px solid #500000;
+
+    top: -14px;
+    left: -3px;
+}
+.stage p.descricao {
+    min-height: 180px;
+}
+.stage p.destaque {
+    margin-top: 15px;
+    color: #B09F6E;
+}
+.stage button {
+    margin-top: 10px;
+    width: 90%;
+    padding: 5%;
+}
+.btn {
+    border-radius: 0px;
+}
+a.btn-success,
+.btn-success {
+    background-color: #B09F6E;
+    background-image: -moz-linear-gradient(center top , #B09F6E, #B09F6E);
+    background-image:linear-gradient(#B09F6E, #B09F6E);
+    color: #FFFFFF;
+    border: none;
+}
+.btn-success:link,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active {
+    background-color:  #B09F6E;
+    border-color: #B09F6E;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+.container .jumbotron {
+    margin-top: 0px;
+    width: 90%;
+    padding: 5%;
+    border-radius: 0px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    height: 80px;
+}
+.jumbotron p{
+    font-size: 12px;
+    margin:0px;
+    padding: 0px;
+}
+.jumbotron .preco {
+    font-size: 14px;
+    color: #B09F6E;
+}
+.jumbotron .preco b {
+    margin-top: 15px;
+}
+.detalhes {
+    margin-top: 20px;
+    background-color: #F8F8F8;
+}
+.tab-content {
+    background-color: #EEEEEE;
+    padding: 20px;
+    max-height: 350px;
+}
+.detalhes .nav li {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #B09F6E;
+    border-radius: 0px;
+    width: 33.1%;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    cursor: pointer !important;
+
+}
+.detalhes .nav li.active {
+    background-color:  #B09F6E;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
+.detalhes .nav li.active a,
+.detalhes .nav li a{
+    color: #FFFFFF !important;
+    line-height: 35px;
+}
+.stage p, .detalhes p {
+    margin: 0px;
+    padding: 0px;
+    color: #383838;
+    font-size: 12px;
+}
+.detalhes .preco {
+    font-size: 24px;
+    color: #B09F6E;
+    padding: 10px 20px;
+    margin: 0px;
+
+}
+.detalhes h3 {
+    background-color:  #383838;
+    border-color: #B09F6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+}
+.detalhes h4 {
+    background-color:  #B09F6E;
+    border-color: #B09F6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    line-height: 55px;
+}
+.detalhes #localizacao {
+    width: 600px;
+    height: 300px;
+}
+.relacionados {
+    margin-top: 20px;
+    background-color: #F8F8F8;
+    padding: 15px;
+}
+.relacionados h3 {
+    color: #B09F6E;
+    font-size: 18;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.telefone-grande {
+    font-size: 20px;
+}
+#myCarousel img{
+    width: 150px;
+    height: 150px;
+}
+.carousel-control {
+    width: 80%;
+    height: 60px;
+    padding-top: 5px;
+    line-height: 35px;
+    font-size: 48px;
+    margin: 0 10px;
+    margin-top: 130px;
+
+}
+.modal-dialog {
+    background-color: #fff;
+}
+ 
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1050;
+  width: 600px;
+  margin: -250px 0 0 -280px;
+  overflow: auto;
+  background-color: transparent;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+.modal.fade {
+  top: -25%;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+          transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+
+.modal.fade.in {
+  top: 50%;
+}
+
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-header .close {
+  margin-top: 2px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  line-height: 30px;
+}
+
+.modal-body {
+  max-height: 600px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.modal-form {
+  margin-bottom: 0;
+}
+
+.modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.modal-footer:after {
+  clear: both;
+}
+
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.breadcrumb > li, .breadcrumb > li.active  
+{ 
+    font-family: arial; 
+}
+#titulo 
+{ 
+    margin: 0px;
+    background: #383838 url("http://www.mceinvestimentos.com.br/powsites/82570/IMGDESTAQUEBGTOPO_1411570788.61.png"); 
+    color: #B09F6E;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px;
+} 
+#fecho_redondo 
+{ 
+    background: #383838 url("http://www.mceinvestimentos.com.br/powsites/82570/"); 
+} 
+#box5d div
+{ 
+    position:absolute; 
+    background: #B09F6E url("http://www.mceinvestimentos.com.br/powsites/82570/"); 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: #383838; 
+    font-size: 10px; 
+}
+#box5d h3 
+{ 
+    color:#949494; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 10px; 
+    font-weight: bold; 
+}
+#box5d img
+{ 
+    width:120px; 
+    height:90px; 
+}
+.maskd
+{ 
+    position:relative; 
+    overflow:hidden; 
+}
+.maskd img
+{ 
+    border:0px; 
+}
+.status_do_imovel
+{ 
+    position: absolute; 
+    width: 120px; 
+    background-color: #990000; 
+    color: #B09F6E; 
+    top: 20px; 
+    font-weight: bold; 
+    padding: 5px 0px; 
+    margin-left: 4px; 
+    text-align: center;
+}
+.imovel-tipo6
+{
+    position: relative;
+    width: 255px;
+    height: 330px;
+    margin-bottom: 5px;
+    padding: 0;
+    border-bottom: 5px solid #383838;
+    border-top: 5px solid #383838;
+    box-shadow: 0px 2px 5px #d1d1d1;
+}
+.imovel-tipo6:hover
+{
+    border-color: #383838;
+
+}
+.imovel-tipo6 hr
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.espaco-img
+{
+    width: 100%;
+    float: left;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+.espaco-img img
+{
+    position: relative;
+}
+.espaco-img .tarja 
+{
+    margin-top: -120px;
+    margin-bottom: 80px;
+    width: 235px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    background-color:  #990000;
+    color: #949494;
+    z-index: 150;
+    position: relative;
+    font-weight: bold;
+}
+.imovel-tipo6:hover 
+{
+}
+.espaco-info
+{
+    width:250px;
+    float: none;
+    text-align: left;
+    height: 230px;
+}
+.espaco-titulo 
+{
+    width:240px;
+    clear: both;
+    float:none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.espaco-info h3
+{
+    margin: 5px 0;
+    font-size: 16px;
+    float: none;
+    color: #B09F6E;
+    width: 100%;
+}
+.espaco-titulo .glyphicon 
+{
+    float: right;
+    margin-top: 7px;
+}
+.espaco-cidade {
+
+}
+p.codigo-imovel
+{
+    color: #a9a9a9;
+    font-size:10px;
+    text-align: right;
+    margin:0;
+    margin-right: 5px;
+    width: 95%;
+    padding:0px;
+}
+.espaco-info h4
+{
+    margin: 10px;
+    margin-bottom:0px;
+    font-size: 14px;
+    color: #7d7d7d;
+}
+.espaco-info h5
+{
+    margin: 0px;
+    margin-bottom:0px;
+    margin-left:10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #7d7d7d;
+}
+.espaco-info .codigo-imovel
+{
+    margin: 0px;
+    margin-bottom:0px;
+    margin-left:10px;
+    font-size: 9px;
+    font-weight: normal;
+    text-align: left;
+    color: #7d7d7d;
+
+}
+.espaco-info p
+{
+    color: #000000;
+}
+.linha-icone p
+{
+    width: 100%;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #7d7d7d;
+    font-size: 12px;
+}
+.breadcrumb > li, .breadcrumb > li.active  { font-family: arial; }#titulo { margin: 0px; background: #383838 url("http://www.mceinvestimentos.com.br/powsites/82570/IMGDESTAQUEBGTOPO_1411570788.61.png"); color: #B09F6E;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;font-weight: bold;padding: 4px;} 
+#fecho_redondo { background: #383838 url("http://www.mceinvestimentos.com.br/powsites/82570/"); } 
+#box5d div{ position:absolute; background: #B09F6E url("http://www.mceinvestimentos.com.br/powsites/82570/"); font-family: Verdana, Arial, Helvetica, sans-serif; color: #383838; font-size: 10px; }
+#box5d h3 { color:#949494; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; }
+#box5d img{ width:120px; height:90px; }
+.maskd{ position:relative; overflow:hidden; }
+.maskd img{ border:0px; }
+.status_do_imovel{ position: absolute; width: 120px; background-color: #990000; color: #B09F6E; top: 20px; font-weight: bold; padding: 5px 0px; margin-left: 4px; text-align: center; }
+
+.imovel-tipo6{
+    position: relative;
+    width: 255px;
+    height: 330px;
+    margin-bottom: 5px;
+    padding: 0;
+    border-bottom: 5px solid #383838;
+    border-top: 5px solid #383838;
+    box-shadow: 0px 2px 5px #d1d1d1;
+}
+.imovel-tipo6:hover{
+    border-color: #383838;
+
+}
+.imovel-tipo6 hr{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.espaco-img{
+    width: 100%;
+    float: left;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+.espaco-img img{
+    position: relative;
+}
+.espaco-img .tarja {
+    margin-top: -120px;
+    margin-bottom: 80px;
+    width: 235px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    background-color:  #990000;
+    color: #949494;
+    z-index: 150;
+    position: relative;
+    font-weight: bold;
+}
+.imovel-tipo6:hover {
+}
+.espaco-info{
+    width:250px;
+    float: none;
+    text-align: left;
+    height: 230px;
+}
+.espaco-titulo {
+    width:240px;
+    clear: both;
+    float:none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.espaco-info h3{
+    margin: 5px 0;
+    font-size: 16px;
+    float: none;
+    color: #B09F6E;
+    width: 100%;
+}
+.espaco-titulo .glyphicon {
+    float: right;
+    margin-top: 7px;
+}
+.espaco-cidade {
+
+}
+p.codigo-imovel{
+    color: #a9a9a9;
+    font-size:10px;
+    text-align: right;
+    margin:0;
+    margin-right: 5px;
+    width: 95%;
+    padding:0px;
+}
+.espaco-info h4{
+    margin: 10px;
+    margin-bottom:0px;
+    font-size: 14px;
+    color: #7d7d7d;
+}
+.espaco-info h5{
+    margin: 0px;
+    margin-bottom:0px;
+    margin-left:10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #7d7d7d;
+}
+.espaco-info .codigo-imovel{
+    margin: 0px;
+    margin-bottom:0px;
+    margin-left:10px;
+    font-size: 9px;
+    font-weight: normal;
+    text-align: left;
+    color: #7d7d7d;
+
+}
+.espaco-info p{
+            color: #000000;
+    }
+.linha-icone p{
+    width: 100%;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #7d7d7d;
+    font-size: 12px;
+}

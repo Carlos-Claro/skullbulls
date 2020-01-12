@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="5" assertions="4" failures="2" errors="0" time="140.711051">
+    <testsuite name="Login_test" file="/var/www/html/admin2_0/application/tests/controllers/Login_test.php" tests="2" assertions="2" failures="1" errors="0" time="0.208208">
+      <testcase name="test_index" class="Login_test" file="/var/www/html/admin2_0/application/tests/controllers/Login_test.php" line="10" assertions="1" time="0.155231"/>
+      <testcase name="test_login" class="Login_test" file="/var/www/html/admin2_0/application/tests/controllers/Login_test.php" line="16" assertions="1" time="0.052977">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">Login_test::test_login
+Failed asserting that false is true.
+
+/var/www/html/admin2_0/application/tests/controllers/Login_test.php:19
+</failure>
+      </testcase>
+    </testsuite>
+    <testsuite name="My_site_pagina_test" file="/var/www/html/admin2_0/application/tests/libraries/My_site_pagina_test.php" tests="1" assertions="0" failures="0" errors="0" time="0.000639">
+      <testcase name="Warning" assertions="0" time="0.000639"/>
+    </testsuite>
+    <testsuite name="Imoveis_model_test" file="/var/www/html/admin2_0/application/tests/models/Imoveis_model_test.php" tests="2" assertions="2" failures="1" errors="0" time="140.502204">
+      <testcase name="test_get_itens" class="Imoveis_model_test" file="/var/www/html/admin2_0/application/tests/models/Imoveis_model_test.php" line="17" assertions="1" time="69.769138"/>
+      <testcase name="test_get_itens_false" class="Imoveis_model_test" file="/var/www/html/admin2_0/application/tests/models/Imoveis_model_test.php" line="23" assertions="1" time="70.733066">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">Imoveis_model_test::test_get_itens_false
+Failed asserting that an array has the key 'item'.
+
+/var/www/html/admin2_0/application/tests/models/Imoveis_model_test.php:26
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

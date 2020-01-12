@@ -1,0 +1,168 @@
+/* 
+    Created on : 20/10/2016, 12:38:22
+    Author     : Nicolas Woitchik
+*/
+form .row
+{
+    margin-top:0px !important
+}
+ul.hotsite-menu > li.active:before
+{
+    content: "";
+    position: absolute;
+    width:0px;
+    height:0px;
+    
+    right:-12px;
+    top: 0px;
+    border-left: 12px solid;
+    border-right: 0px solid;
+    border-bottom: 19px solid;
+    border-top:20px solid ;
+    
+    border-color: transparent transparent transparent #337ab7 ;
+    /*box-shadow: 0px 2px 2px #000;*/
+}
+.cores,.salvar
+{
+    height: 34px;
+    margin:5px 0px
+}
+.listagem-paginas
+{
+    display: block; 
+    color: #555555; 
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    background: #fafafa;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    margin-bottom: -1px;
+}
+.listagem-links
+{
+    display: block; 
+    color: #555555; 
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    background: #F1F1F1;
+    background: -webkit-linear-gradient(top, #cccccc 2px, #F1F1F1 4px);
+    background:    -moz-linear-gradient(top, #cccccc 2px, #F1F1F1 4px);
+    background:         linear-gradient(top, #cccccc 2px, #F1F1F1 4px);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    margin-bottom: -1px;
+    
+}
+.listagem-paginas:hover
+{
+    background: -webkit-linear-gradient(top, #cccccc 1%, #fafafa 10%);
+    background:    -moz-linear-gradient(top, #cccccc 1%, #fafafa 10%);
+    background:         linear-gradient(top, #cccccc 1%, #fafafa 10%);
+}
+.listagem-paginas p
+{
+    margin:0px;
+    padding:14px 0px;
+    font-size: 18px
+}
+.listagem-paginas .form-group
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.listagem-paginas .btn-acao
+{
+    padding: 6px;
+    margin-bottom: 5px
+}
+.listagem-paginas .form-control[type='text']
+{
+    background: transparent;
+    margin:0px;
+    border-top:1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.indicadores
+{
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.separador
+{
+    border-right: 1px solid #cccccc;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    
+}
+div.switch
+{
+    height: 32px;
+    margin-top: 5px;
+}
+.sortable
+{
+    padding-top: 4px;
+    background: #939393;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border:2px #fff solid;
+    border-right: 2px dashed #ff0000;
+}
+.link_menu > .link_menu
+{
+    margin-left:50px
+}
+.link_menu 
+{
+    margin-bottom: 3px;
+}
+.link_menu_titulo
+{
+    background:#f1f1f1;
+    color:#000000;
+    padding:10px 10px;
+    border:1px #CCCCCC solid;
+}
+.link_menu_titulo .actions
+{
+    position: relative;
+    float: right;
+    right:10px;
+    top:-30px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.link_menu_titulo .actions i:hover
+{
+    color:#337ab7;
+    cursor: pointer
+}
+.link_menu_configuracoes
+{
+    border: 1px solid #CCCCCC;  
+    margin-top: -1px;
+    padding: 10px;
+}
+.nome-menu
+{
+    border: 1px solid transparent;
+    padding: .2em;
+    background: #f9e491;
+}
+.nome-menu:hover,.nome-menu:focus
+{
+    border: 1px dashed #333;
+}
+.portlet-menu-link .link_menu
+{
+    cursor: pointer;
+}

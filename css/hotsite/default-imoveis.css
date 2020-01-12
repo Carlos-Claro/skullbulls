@@ -1,0 +1,299 @@
+
+.body-imoveis
+{
+    background: #FFFFFF url(http://www.abimoveis.com/powsites/1885/IMGFUNDO_1457534751.29.png) center top;
+    margin: 0px;
+}
+.logo-topo-imoveis
+{
+    background: url(http://www.abimoveis.com/powsites/1885/TPST_1475077955.45.png) center top no-repeat;
+    width: 100%;
+    padding: 0px;
+    height: 215px;
+}
+@media only screen and (max-width: 1170px) {
+    .logo-topo-imoveis
+    {
+        background-position-x: left;
+    }
+}
+.menu
+{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.menu li
+{
+    padding:10px 15px;
+    font-size: 16px;
+}
+.menu a
+{
+    color:#FFFFFF;
+    padding-right: 35px;
+}
+.menu li a:hover
+{
+    color: #D71C22;
+    cursor:pointer;
+    text-decoration: none;
+}
+/*teste de menu com navbar*/
+
+.menu-navbar
+{
+    margin-top:-40px;
+    margin-bottom: 0px;
+    background: #268357;
+    border:none;
+    border-color: transparent;
+    min-height:40px;
+}
+.menu-navbar a
+{
+    color:#FFFFFF !important;
+    width: 100%;
+    margin:0px 0px;
+    padding:10px ;
+}
+.menu-navbar ul
+{
+    width: 100%;
+    text-align: center
+}
+.menu-navbar li
+{
+    width:14%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.menu-navbar li:hover 
+{
+    background: rgba(204,204,204,.5);
+}
+.menu-navbar ul li a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-navbar .ativo
+{
+    background: #888888;
+    
+}
+.menu-navbar ul.dropdown-menu
+{
+    background: #268357 !important;
+    width: 100%;
+}
+.menu-navbar ul.dropdown-menu li
+{
+    width: 100%;
+    
+}
+.menu-navbar ul.dropdown-menu li:hover
+{
+    color:#268357;
+}
+@media only screen and (max-width: 767px) {
+    .menu-navbar li
+    {
+        width:100%;
+        text-align: left;
+    }
+}
+/*fim do teste de navbar*/
+.conteudo
+{
+    margin-top:2px;
+}
+.titulo-categoria
+{
+    background:#268357;
+    text-align: center;
+    padding:5px 15px;
+    margin-top: 2px;
+    list-style: none;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+.titulo-categoria a
+{
+    color:#FFFFFF;
+}
+.titulo-categoria:hover, .titulo-categoria a:hover
+{
+    text-decoration: none;
+    cursor:pointer
+}
+.categorias li
+{
+    color:#333333;
+    padding:5px 5px;
+    cursor:pointer;
+    border-top:1px #CCCCCC solid;
+    font-style: normal;
+}
+.categorias a 
+{
+    color: #333333;
+}
+.imoveis, .imoveis a
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    max-height: 244px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:0px;
+    
+}
+.imoveis img
+{
+    width: 120px;
+    height: 90px;
+}
+.tipo_imovel
+{
+    background: #268357 url("http://www.abimoveis.com/powsites/1885/IMGDESTAQUEBGTOPO_1393590832.34.jpg");
+    background-position: center;
+    background-size: 100%;
+    color: #004212;
+    font-size: 11px;
+    padding: 4px;
+}
+.preco, .tipo_negociacao
+{
+    color: #004212;
+    font-size: 11px;
+}
+.bairro, .cidade
+{
+    color:#050505;
+    font-size: 10px
+}
+#banner-rotativo
+{
+    max-height: 304px;
+    overflow-x: hidden
+}
+
+.rodape
+{
+    background: url(http://www.abimoveis.com/powsites/1885/RODAPE_FUNDO_1458646477.png);
+}
+.navbar-collapse
+{
+    border : none;
+    border-color: none;
+}
+
+.imagens-album img,.imagens-album a
+{
+    width: 200px !important;
+    max-height: 200px;
+}
+.topo
+{
+    padding:4px;
+    background: url(http://www.abimoveis.com/imagens/bg_topo.jpg);
+    background-size: auto 100%;
+}
+.caracteristicas-imovel, .formulario-imovel
+{
+    border:1px solid #333333;
+    margin:5px 0px;
+}
+.formulario-imovel
+{
+    padding:10px;
+    background: url(http://www.abimoveis.com/imagens/bg_form.jpg);
+    background-size: auto 100%
+}
+.formulario-imovel input,.formulario-imovel textarea
+{
+    margin-bottom: 3px
+}
+.menu-rodape
+{
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+.menu-rodape ul
+{
+    text-align: center
+}
+.menu-rodape a
+{
+    color:#333333;
+}
+.menu-rodape nav
+{
+    width: 100%;
+}
+.menu-rodape .container-fluid,.menu-rodape .navbar-collapse
+{
+    margin:0px !important;
+    padding:0px !important;
+}
+.botao-menu-rodape
+{
+    background: #333333
+}
+.imoveis-linha
+{
+    border-top:1px solid #ccc;
+    padding:3px 0px;
+}
+.caracteriticas-imobiliaria
+{
+    border:1px solid #268357;
+    padding:2px;
+}
+.caracteriticas-imobiliaria p
+{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.list-group p
+{
+    font-weight: normal;
+    border-bottom: 0px !important;
+}
+.ficha-imovel p 
+{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.descricao-imovel
+{
+    border:0px !important;
+    font-size: 11px;
+    font-weight: normal;
+}
+.lista-imoveis-2
+{
+    border-top:   1px solid #3f3333;
+    border-right: 1px solid #3f3333;
+    border-left:  1px solid #3f3333;
+    border-bottom:5px solid #3f3333;
+    transition: 0.3s;
+}
+.lista-imoveis-2 img
+{
+    transition: 0.2s;
+    border: 2px solid rgba(0,0,0,0);
+}
+.lista-imoveis-2:hover img
+{
+    border: 2px solid #3f3333;
+}
+.codigo-lista
+{
+    font-size: 12px;
+    margin:0px;
+    color:rgba(0,0,0,.4);
+}
+/*// isso sera descartado*/
+/*//fiz somente pra ter a ideia de hotsite imoveis//*/

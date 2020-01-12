@@ -1,0 +1,76 @@
+/* 
+    Created on : 14/11/2016, 16:32:09
+    Author     : Nicolas Woitchik
+*/
+
+/*
+Link sem submenu :
+
+    ul -> li -> a -> p|span
+    Cada elemento tem sua respectiva classe
+    O elemento 'ul'  tem a classe .ul-[id]
+    O elemento 'li'  tem a classe .li-[id]
+    O elemento 'a'   tem a classe .a-[id]
+
+    O elemento 'p' atende as requisições de todos os elementos.
+
+Link com submenu : 
+
+    ul -> li 
+            -> p|span|a
+            -> ol -> li -> a -> p|span
+    Cada elemento tem sua respectiva classe
+    O elemento 'ul'  tem a classe .ul-[id]
+    O elemento 'li'  tem a classe .li-[id]
+    O elemento 'ol'  tem a classe .submenu-ul-[id]
+    O elemento 'li'  tem a classe .submenu-li-[id]
+    O elemento 'a'   tem a classe .a-[id]
+
+    O elemento 'p' atende as requisições de todos os elementos.
+*/
+
+
+
+/*Configurações do menu*/
+.nav-[id] .ul-[id]
+{
+    /*Arredondamento das bordas*/
+    border-radius: 0px !important;
+    
+    /*Tamanho da fonte*/
+    font-size: 14px;
+    
+    /*Estilo da fonte*/
+    font-family: Arial;
+    
+    
+}
+.nav-[id] .ul-[id] .li-[id]
+{
+    /*Margem do menu*/
+    margin-top:    -10px;   /* Topo     */
+    margin-right:  0px;     /* Direita  */
+    margin-bottom: 0px;     /* Abaixo   */
+    margin-left:   0px;     /* Esquerda */
+    
+    /*Preenchimento do menu*/
+    padding-top:   5px;     /* Topo     */
+    padding-right:  10px;   /* Direita  */
+    padding-bottom: 5px;    /* Abaixo   */
+    padding-left:  10px;    /* Esquerda */
+    
+    /*Cor da fonte*/
+    color: #333333;
+    
+    /*Cor do fundo*/
+    background: #F4F4F4;
+    
+    font-family: Arial!important;
+}
+
+/*Configuração do menu quando passar o mouse*/
+.nav-[id] .ul-[id] .li-[id]:hover
+{
+    color:#F4F4F4;
+    background:#333333;
+}

@@ -1,0 +1,155 @@
+/* 
+    Created on : 20/09/2016, 17:20:06
+    Author     : Nicolas Woitchik
+*/
+
+.body-hotsite
+{
+    background: #ffffff url("http://www.amusicaljupiter.com.br/powsites/81743/IMGFUNDO_1462818945.png") center top;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.logo-topo
+{
+    background: url(http://www.amusicaljupiter.com.br/powsites/81743/TPST_1462824738.56.png);
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 247px;
+}
+.menu
+{
+    margin-left: 10px;
+    margin-top: -50px;
+}
+.menu li
+{
+    padding:10px 15px;
+    font-size: 16px;
+}
+.menu a
+{
+    color:#FFFFFF;
+    padding-right: 35px;
+}
+.menu li a:hover
+{
+    color: #D71C22;
+    cursor:pointer;
+    text-decoration: none;
+}
+/*teste de menu com navbar*/
+
+.menu-navbar
+{
+    margin-top:-53px;
+    background: #404040;
+    border:none;
+    border-color: none;
+}
+.menu-navbar a
+{
+    color:#FFFFFF !important;
+    width: 100%;
+    margin:0px 0px;
+}
+.menu-navbar ul
+{
+    width: 100%;
+}
+.menu-navbar li
+{
+    width:14%;
+    text-align: center;
+}
+.menu-navbar .ativo
+{
+    background: #888888;
+    
+}
+@media only screen and (max-width: 767px) {
+    .menu-navbar li
+    {
+        width:100%;
+        text-align: left;
+    }
+}
+/*fim do teste de navbar*/
+.conteudo
+{
+    margin-top:2px;
+}
+.titulo-categoria
+{
+    background:#333333;
+    text-align: center;
+    padding:5px 15px;
+    margin-top: 2px;
+    list-style: none;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+.titulo-categoria a
+{
+    color:#FFFFFF;
+}
+.titulo-categoria:hover, .titulo-categoria a:hover
+{
+    text-decoration: none;
+    cursor:pointer
+}
+.categorias li
+{
+    color:#333333;
+    padding:5px 5px;
+    cursor:pointer;
+    border-top:1px #CCCCCC solid;
+    font-style: normal;
+}
+.categorias a 
+{
+    color: #333333;
+}
+.produtos, .produtos a
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    max-height: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0px;
+    color:#888888;
+    height: 181px;
+}
+.produtos:hover
+{
+    cursor:pointer;
+}
+.nome-produto
+{
+    margin-bottom: 30px
+}
+.descricao-produto
+{
+    font-size: 13px;
+}
+#banner-rotativo
+{
+    max-height: 304px;
+    overflow-x: hidden
+}
+
+.rodape
+{
+    background: #222222;
+    color:#FFFFFF
+}
+.navbar-collapse
+{
+    border : none;
+    border-color: none;
+}
+.imagens-album img
+{
+    width: 120px !important;
+    max-height: 200px;
+}
+
