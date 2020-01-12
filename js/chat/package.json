@@ -9,7 +9,7 @@
   "author": "Nicolas Woitchik",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^1.0.0",
+    "ejs": "^3.0.1",
     "express": "^4.8.2",
     "gravatar": "~1.0.6",
     "sequelize": "^3.29.0",
